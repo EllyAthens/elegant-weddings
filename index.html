@@ -1,60 +1,183 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Elegant Weddings Athens - Your dream wedding planner in Greece.">
+  <meta name="keywords" content="wedding planner Greece, wedding in Athens, destination wedding Greece, wedding planning services">
   <title>Elegant Weddings Athens</title>
   <style>
     body {
-      font-family: 'Georgia', serif;
-      background-color: #f9f5f0;
-      color: #333;
+      font-family: Arial, sans-serif;
       margin: 0;
       padding: 0;
-      text-align: center;
+      background-color: #fafafa;
     }
     header {
-      background-color: #fff0f5;
-      padding: 2rem;
-      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    }
-    h1 {
-      margin: 0;
-      font-size: 2.5rem;
-    }
-    p {
-      font-size: 1.2rem;
-      margin: 1rem 0;
-    }
-    .contact {
-      margin-top: 2rem;
-    }
-    .button {
-      background-color: #d48ba0;
+      background-color: #333;
       color: white;
-      padding: 1rem 2rem;
-      border: none;
-      border-radius: 8px;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+    }
+    nav {
+      background-color: #444;
+      overflow: hidden;
+    }
+    nav a {
+      color: white;
+      padding: 14px 20px;
       text-decoration: none;
-      font-size: 1rem;
-      display: inline-block;
-      margin-top: 1rem;
+      float: left;
+      text-align: center;
+    }
+    nav a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+    section {
+      padding: 40px;
+      margin: 20px;
+      background-color: #fff;
+      border-radius: 8px;
+    }
+    #gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 20px;
+      justify-items: center;
+    }
+    .gallery-item img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+    .gallery-item p {
+      font-size: 16px;
+      margin-top: 10px;
+      color: #333;
+      text-align: center;
+    }
+    .contact-form input, .contact-form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border-radius: 4px;
+      border: 1px solid #ccc;
+    }
+    .contact-form button {
+      padding: 10px 20px;
+      background-color: #333;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    .contact-form button:hover {
+      background-color: #555;
     }
   </style>
 </head>
 <body>
+
+  <!-- Header Section -->
   <header>
-    <h1>Elegant Weddings Athens</h1>
-    <p>By Elly - Wedding Planning in the Heart of Greece</p>
+    <h1>Elegant Weddings Athens by Elly</h1>
+    <p>Plan your dream wedding in Greece with us</p>
   </header>
 
-  <section>
-    <p>We specialize in elegant, unforgettable weddings in Athens. Let us bring your dream day to life with style and grace.</p>
+  <!-- Navigation -->
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#services">Services</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#testimonials">Testimonials</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <!-- Services Section -->
+  <section id="services">
+    <h2>Our Services</h2>
+    <p>We offer a wide range of wedding planning services in Greece, including everything from venue selection to catering, decoration, and photography. Whether you're planning a destination wedding or an intimate ceremony, we tailor every detail to meet your unique vision.</p>
     
-    <div class="contact">
-      <p>Contact us:</p>
-      <a href="mailto:ellyweddings@gmail.com" class="button">Send Email</a>
+    <h3>Wedding Planning</h3>
+    <p>We provide full wedding planning services in Greece, ensuring that your wedding day is stress-free and unforgettable.</p>
+
+    <h3>Destination Weddings</h3>
+    <p>From Athens to Santorini, we specialize in organizing destination weddings in some of Greece’s most iconic locations.</p>
+
+    <h3>Budget Planning</h3>
+    <p>We offer flexible packages for weddings of all sizes and budgets, ensuring that you get the wedding of your dreams without breaking the bank.</p>
+  </section>
+
+  <!-- Gallery Section -->
+  <section id="gallery">
+    <h2>Our Beautiful Weddings in Greece</h2>
+    <p>Explore some of the most beautiful weddings we've had the honor of planning in Greece. From intimate ceremonies to grand celebrations, our gallery showcases stunning moments that make every wedding unforgettable.</p>
+    
+    <div class="gallery-item">
+      <img src="https://via.placeholder.com/400x300" alt="Wedding in Athens with Acropolis View">
+      <p>Athens Wedding with Acropolis View</p>
+    </div>
+    <div class="gallery-item">
+      <img src="https://via.placeholder.com/400x300" alt="Santorini Sunset Elopement">
+      <p>Santorini Sunset Elopement</p>
+    </div>
+    <div class="gallery-item">
+      <img src="https://via.placeholder.com/400x300" alt="Beach Wedding on the Athenian Riviera">
+      <p>Beach Wedding on the Athenian Riviera</p>
+    </div>
+    <div class="gallery-item">
+      <img src="https://via.placeholder.com/400x300" alt="Lavish Wedding in Thessaloniki">
+      <p>Lavish Wedding in Thessaloniki</p>
     </div>
   </section>
+
+  <!-- Testimonials Section -->
+  <section id="testimonials">
+    <h2>What Our Clients Say</h2>
+    <p>Don’t just take our word for it. Hear from some of the happy couples we've helped plan their dream weddings in Greece.</p>
+
+    <h3>Sarah & John – Athens Wedding</h3>
+    <p>"Elly made our dream wedding in Athens come true! From the moment we arrived, everything was taken care of — no stress, just joy. We had an intimate ceremony with the Acropolis as our backdrop. Elly’s attention to detail was amazing, and she made sure everything ran smoothly."</p>
+
+    <h3>Maria & Dimitris – Athens Wedding</h3>
+    <p>"Our wedding in Athens was exactly what we wanted — elegant, intimate, and stress-free. Elly and her team took care of everything, and we couldn’t have asked for a better day. The venue was gorgeous, the flowers were stunning, and the food was delicious!"</p>
+
+    <h3>Emma & James – Santorini Elopement</h3>
+    <p>"We couldn’t have asked for a more perfect day! Elly’s team took care of everything — the ceremony was stunning, and the photos with the sunset in the background were magical. Thank you for making our Santorini elopement unforgettable!"</p>
+
+    <h3>Olga & Kostas – Thessaloniki Wedding</h3>
+    <p>"Our wedding in Thessaloniki was absolutely perfect, thanks to Elly! From the venue selection to the floral arrangements, everything exceeded our expectations. It was a seamless experience, and we’re so happy we chose Elegant Weddings Athens!"</p>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>If you’re ready to start planning your dream wedding in Greece or if you have any questions, don’t hesitate to reach out.</p>
+    <p><strong>Email:</strong> <a href="mailto:athensweddings@gmail.com">athensweddings@gmail.com</a></p>
+    
+    <form class="contact-form" action="mailto:athensweddings@gmail.com" method="post" enctype="text/plain">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" required>
+      
+      <label for="email">Email Address</label>
+      <input type="email" id="email" name="email" required>
+      
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="4" required></textarea>
+      
+      <label for="date">Preferred Wedding Date</label>
+      <input type="date" id="date" name="date">
+      
+      <label for="location">Location</label>
+      <input type="text" id="location" name="location">
+      
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
 </body>
 </html>
